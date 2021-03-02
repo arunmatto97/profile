@@ -1,0 +1,303 @@
+
+#particles-js {
+  
+  width: 100%;
+  height:160px;
+  background: #03506f;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 
+}
+
+
+h1{
+  margin: auto;
+  font-size: 3rem;
+  color: azure;
+  text-shadow:  0 0 0.7em rgb(0, 0, 0);
+}
+
+h1:hover{
+  text-shadow: 0 0 0.7em rgb(255, 255, 255);
+}
+
+h2{
+  text-shadow:  0 0 0.7em rgba(0, 0, 0, 0.692);
+}
+h3{
+  color: chocolate;
+}
+
+body{
+  margin: 0%;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+ 
+}
+  
+
+
+#profilepic{
+  margin: auto;
+  width:150px;
+  height:150px;
+  background-image: url("pics/pic.jpg");
+  background-size:cover;
+ 
+}
+.namebox{
+  position: relative;
+  bottom:60px;
+}
+#namebox{
+  display: inline-block;
+  position: relative;
+  animation-name: nmove;
+animation-duration: 2s;
+animation-timing-function: ease-out;
+}
+@keyframes nmove {
+  from {left: -800px;}
+  to {left: 70px;}
+}
+
+.card{
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  bottom:60px;
+  width:150px;
+  height:150px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@keyframes move {
+  0%   { left: 40px; top: 200px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:40px;  top:200px;}
+  100% { left:40px;  top:0px;}
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281);
+}
+.contact-box{
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5rem;
+}
+.hobbyitems{
+padding: 1rem;
+  align-items: center;
+  height: 70px;
+  width: auto;
+}
+
+.social-media-box{
+  
+  display: block;
+  align-items:center;
+  text-align: center; 
+  text-decoration: white;
+  background:black;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+}
+.social-media-icon{
+ 
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  height: 30px;
+  width: auto;
+}
+#in{
+  color: aliceblue;
+  display: inline-block;
+}
+.detail-box{
+ margin: 20px;
+ width: auto;
+ display: flex;
+}
+.textanim{
+position: relative;
+animation-name: inmove;
+animation-duration: 2s;
+animation-timing-function: ease-out;
+}
+
+.skills-box{
+  
+  text-align: center;
+  padding: 2rem 10rem 3rem 10rem;
+  display: block;
+  width: auto;
+  
+  
+}
+   
+.interest-box{
+  margin-right: 2rem;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+   animation-name: inmove;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+@keyframes inmove {
+  from {left: -400px;}
+  to {left: 0px;}
+}
+        
+    
+.personal-qualities{
+
+  display: inline-block;
+  width: auto;
+  position: relative;
+  line-height: 180%;
+  animation-name: plmove;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+@keyframes plmove {
+  from {left: -600px;}
+  to {left: 0px;}
+}
+    
+    
+.projects{
+  display: block;
+  padding: 2rem 10rem 3rem 10rem;
+  width: 100%;
+  
+}
+    
+    
+.work-exp{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  animation-name: xpmove;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  margin-right: 2rem;
+}
+@keyframes xpmove {
+  from {left: -800px;}
+  to {left: 0px;}
+}
+
+.funnybox{
+  align-items: center;
+  text-align: center;
+}
+.hobbies{
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+.facts{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  animation-name: xpmove;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  margin-right: 2rem;
+  
+}
+.ball{
+  position: relative;
+  animation-name:jump;
+  animation-duration: 2s;
+ 
+}
+@keyframes jump {
+  100%   { left:0px; top:0px;}
+  50%  { left:0px; top:200px;}
+  0% { left:0px; top:200px;}
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
