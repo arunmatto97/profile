@@ -21,7 +21,8 @@ h1:hover{
 }
 
 h2{
-  text-shadow:  0 0 0.7em rgba(0, 0, 0, 0.692);
+  text-shadow:  0 0 0.7em rgba(0, 0, 0, 0.685);
+  color: #03506f;
 }
 h3{
   color: chocolate;
@@ -86,6 +87,7 @@ animation-timing-function: ease-out;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281);
 }
 .contact-box{
+  align-items: center;
   text-align: center;
   background-color: white;
   color: black;
@@ -94,7 +96,7 @@ animation-timing-function: ease-out;
 .hobbyitems{
 padding: 1rem;
   align-items: center;
-  height: 70px;
+  height: 80px;
   width: auto;
 }
 
