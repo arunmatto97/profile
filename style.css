@@ -139,7 +139,7 @@ animation-timing-function: ease-out;
 .skills-box{
   
   text-align: center;
- 
+  padding: 2rem 3rem 3rem 3rem;
   display: block;
   width: auto;
   
