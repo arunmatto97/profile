@@ -179,9 +179,8 @@ animation-timing-function: ease-out;
     
 .projects{
   display: block;
-  padding: 2rem 10rem 3rem 10rem;
-  width: 100%;
-  
+  padding-left: 3rem; 
+  padding-bottom: 6rem;
 }
     
     
@@ -208,8 +207,10 @@ animation-timing-function: ease-out;
   display: inline-block;
   text-align: center;
   width: 50%;
+  padding-bottom: 6rem;
 }
 .facts{
+  
   display: inline-block;
   position: relative;
   width: 50%;
