@@ -48,10 +48,13 @@ body{
  
 }
 .namebox{
+  display: inline-block;
   position: relative;
   bottom:60px;
-  align-content: flex-end;
+ text-align: right;
 }
+
+
 #namebox{
   display: inline-block;
   position: relative;
@@ -61,7 +64,7 @@ animation-timing-function: ease-out;
 }
 @keyframes nmove {
   from {left: -800px;}
-  to {left: 70px;}
+  to {left: 0px;}
 }
 
 .card{
@@ -125,9 +128,8 @@ padding: 1rem;
   display: inline-block;
 }
 .detail-box{
- margin: 20px;
- width: auto;
- display: flex;
+  color:#d3e0ea;
+ background-color:#1e212d
 }
 .textanim{
 position: relative;
@@ -181,6 +183,8 @@ animation-timing-function: ease-out;
   display: block;
   padding-left: 3rem; 
   padding-bottom: 6rem;
+  color: azure;
+  background-color: #1e212d;
 }
     
     
