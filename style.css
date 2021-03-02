@@ -50,6 +50,7 @@ body{
 .namebox{
   position: relative;
   bottom:60px;
+  align-content: flex-end;
 }
 #namebox{
   display: inline-block;
